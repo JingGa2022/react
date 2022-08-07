@@ -19,8 +19,6 @@ const App = () => {
       }}>{visible ? 'hide' : 'show'}</button>
       <br />
       {visible && <Info />}
-
-
       <Counter />
 
     </>
